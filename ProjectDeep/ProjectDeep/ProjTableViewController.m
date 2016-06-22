@@ -13,7 +13,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.request = [[WebRequests alloc]initWithURL:@"http://www.news.google.com"];
+    self.request = [[WebRequests alloc]initWithURL:self.sentURL];
     self.cleanData = [[DataClean alloc]init];
     self.cleanData.urls = [self.cleanData returnFormattedDataFromStringOfData:[self.request getWebDataFromURL]];
     // Uncomment the following line to preserve selection between presentations.

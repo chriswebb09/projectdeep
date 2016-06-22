@@ -24,8 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
+    ProjTableViewController *projTableVC = segue.destinationViewController;
+    projTableVC.sentURL = self.webRequestTextField.text;
 }
 
 @end

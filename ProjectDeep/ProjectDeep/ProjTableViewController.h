@@ -15,6 +15,7 @@
 
 @property (strong, nonatomic) WebRequests *request;
 @property (strong, nonatomic) DataClean *cleanData;
+@property (strong, nonatomic) NSString *sentURL;
 //@property (strong, nonatomic) NSArray *returnURLS;
 
 
