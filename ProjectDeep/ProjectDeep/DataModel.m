@@ -10,4 +10,12 @@
 
 @implementation DataModel
 
+-(void)saveFavoriteLinks:(NSMutableArray*)favoriteLinks {
+    
+}
+
+-(void)saveFavoriteImages:(NSMutableArray*)favoriteImages {
+    
+}
+
 @end

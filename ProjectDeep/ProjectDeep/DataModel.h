@@ -7,9 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface DataModel : NSObject
 
 @property (strong, nonatomic) NSUserDefaults *userDefaults;
+@property (strong, nonatomic) NSMutableArray *favorites;
+@property (strong, nonatomic) UIImage *image;
+
+-(void)saveFavoriteLinks:(NSMutableArray*)favoriteLinks;
+
+-(void)saveFavoriteImages:(NSMutableArray*)favoriteImages;
 
 @end

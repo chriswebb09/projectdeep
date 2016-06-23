@@ -12,8 +12,7 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *inputLabel;
 @property (weak, nonatomic) IBOutlet UITextField *webRequestTextField;
-
-
+@property (weak, nonatomic) IBOutlet UIButton *submitButton;
 
 @end
 

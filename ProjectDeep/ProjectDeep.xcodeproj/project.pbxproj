@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF22CF811D1B438B004F9481 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF22CF801D1B438B004F9481 /* DetailViewController.m */; };
 		AF6778811D1B08C000405021 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6778801D1B08BF00405021 /* main.m */; };
 		AF6778841D1B08C000405021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6778831D1B08C000405021 /* AppDelegate.m */; };
 		AF6778871D1B08C000405021 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6778861D1B08C000405021 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF22CF7F1D1B438B004F9481 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AF22CF801D1B438B004F9481 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		AF67787C1D1B08BF00405021 /* ProjectDeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectDeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF6778801D1B08BF00405021 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF6778821D1B08C000405021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,10 +76,12 @@
 				AF6778991D1B091E00405021 /* Classes */,
 				AF6778821D1B08C000405021 /* AppDelegate.h */,
 				AF6778831D1B08C000405021 /* AppDelegate.m */,
-				AF6778851D1B08C000405021 /* ViewController.h */,
 				AF6778A01D1B125400405021 /* ProjTableViewController.h */,
 				AF6778A11D1B125400405021 /* ProjTableViewController.m */,
+				AF6778851D1B08C000405021 /* ViewController.h */,
 				AF6778861D1B08C000405021 /* ViewController.m */,
+				AF22CF7F1D1B438B004F9481 /* DetailViewController.h */,
+				AF22CF801D1B438B004F9481 /* DetailViewController.m */,
 				AF6778881D1B08C000405021 /* Main.storyboard */,
 				AF67788B1D1B08C000405021 /* Assets.xcassets */,
 				AF67788D1D1B08C000405021 /* LaunchScreen.storyboard */,
@@ -180,6 +185,7 @@
 				AF6778871D1B08C000405021 /* ViewController.m in Sources */,
 				AF6778A21D1B125400405021 /* ProjTableViewController.m in Sources */,
 				AF6778981D1B091200405021 /* DataModel.m in Sources */,
+				AF22CF811D1B438B004F9481 /* DetailViewController.m in Sources */,
 				AF6778841D1B08C000405021 /* AppDelegate.m in Sources */,
 				AF67789F1D1B0D9700405021 /* DataClean.m in Sources */,
 				AF6778811D1B08C000405021 /* main.m in Sources */,
@@ -334,6 +340,7 @@
 				AF6778951D1B08C000405021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
